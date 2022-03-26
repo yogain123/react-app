@@ -3,10 +3,9 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-
 ReactDOM.render(
   <React.StrictMode>
-    <div style={{ margin: 100 }}>
+    <div>
       <App />
     </div>
   </React.StrictMode>,
