@@ -18,6 +18,7 @@ function App() {
           <Route path="/setting" exact element={<Settings />} />
           <Route path="/profile" exact element={<Profile />} />
           <Route path="/about" exact element={<About />} />
+          <Route path="*" exact element={<div>Unknown Page</div>} />
         </Routes>
       </div>
     </BrowserRouter>
